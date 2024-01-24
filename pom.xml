@@ -24,7 +24,10 @@
     <description>Eclipse Ditto is a framework for creating and managing digital twins in the IoT.</description>
     <url>https://eclipse.dev/ditto/</url>
     <inceptionYear>2017</inceptionYear>
-
+<properties>
+  <sonar.organization>unimibesami</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
     <organization>
         <name>Eclipse Foundation</name>
         <url>http://www.eclipse.org/</url>
