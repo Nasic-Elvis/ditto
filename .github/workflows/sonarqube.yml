@@ -1,5 +1,6 @@
 name: SonarQube Scan
 
+
 on:
   push:
     branches: [ master ]
