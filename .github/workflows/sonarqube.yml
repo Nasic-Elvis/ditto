@@ -22,8 +22,8 @@ jobs:
       uses: SonarSource/sonarqube-scan-action@v1
       with:
         args: >
-          -Dsonar.projectKey= ditto-analisi
-          -Dsonar.host.url= https://localhost:9000
+          -Dsonar.projectKey=ditto-analisi
+          -Dsonar.host.url=https://localhost:9000
           -Dsonar.login=$SONAR_TOKEN
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
